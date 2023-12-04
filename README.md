@@ -5,3 +5,9 @@ Collection of solutions and attempts for [Advent of Code 2023](https://adventofc
 
 ## Day 1 -- Rust
 A short little warm up... and another appearance of [my favorite snippet from Rust By Example](https://doc.rust-lang.org/rust-by-example/std_misc/file/read_lines.html).
+
+## Day 2 -- Python
+Cubes! Got caught up with this one. I should have focused on what the question was looking for instead of spending time trying to figure out how the data should look for something like this.
+
+## Day 3 -- Javascript
+Again -- I wasted a lot of time with this one trying to think of a slick way to analyze the data by iterating over it only once. (I did not, but I'd like to see someone do it).
