@@ -10,8 +10,6 @@ import (
 	"strings"
 )
 
-
-
 func main() {
 	filePath := flag.String("fpath", "./input.txt", "File path to be read from")
 	flag.Parse()
@@ -27,8 +25,11 @@ func main() {
 		}
 	}()
 
-	totalValue := 0;
+	totalValue := 0
+	totalCards := 0
+	cards := make(map[int]int)
 
+	cardCounter := 0
 	scanner := bufio.NewScanner(file)
 	for scanner.Scan() {
 		// Split game data
@@ -40,6 +41,8 @@ func main() {
 		cardSplit := strings.Split(cardsString, "|")
 		winningNumbers := strings.Split(cardSplit[0], " ")
 		chosenNumbers := strings.Fields(cardSplit[1])
+
+		cards[cardCounter] += 1
 
 		//fmt.Println(len(chosenNumbers))
 
@@ -60,12 +63,22 @@ func main() {
 			//fmt.Println(cardPoints)
 			totalValue += cardPoints
 		}
+
+		for i := 0; i < matches; i++ {
+			cards[cardCounter + i + 1] += cards[cardCounter]
+		}
+		cardCounter++
 	}
 	err = scanner.Err()
 	if err != nil {
 		log.Fatal(err)
 	}
 
+	for _, value := range cards {
+		totalCards += value
+	}
+
 	fmt.Printf("Total score:%d\n", totalValue)
+	fmt.Printf("Total cards:%d\n", totalCards)
 
 }
