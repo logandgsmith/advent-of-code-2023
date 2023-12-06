@@ -17,3 +17,6 @@ Today was the first time I've used Go. Honestly, I didn't see much of the appeal
 
 ## Day 5 -- Perl
 Oh wow, everything they say about Perl is real and true. What did I just witness. Please see this day for the least idiomatic and most idiotic solve so far.
+
+## Day 6 -- C++
+Today was a short one. I think the hardest part was remembering how much uglier string processing is without the functions that Python has. Also got reminded of the issues that can pop up from not properly flushing your buffers. I'm glad today was a quick one, because that would not have been fun to troubleshoot with a massive input.

@@ -94,10 +94,3 @@ for my $location (@locations) {
 }
 
 say("Lowest location is $lowestLocation");
-
-#say($almanacHeadings{'seed-to-soil'}[0]->{rangeLength});
-
-# foreach ($almanacHeadings{'seed-to-soil'}) {
-#     #say($_->{destinationRangeStart});
-#     say(Dumper($_));
-# }
