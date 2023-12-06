@@ -15,3 +15,5 @@ Again -- I wasted a lot of time with this one trying to think of a slick way to 
 ## Day 4 -- Go
 Today was the first time I've used Go. Honestly, I didn't see much of the appeal that I've heard about. It wasn't a hard syntax or anything, it just gave me a lot of flashbacks of Java! I might try Go again on a harder challenge.
 
+## Day 5 -- Perl
+Oh wow, everything they say about Perl is real and true. What did I just witness. Please see this day for the least idiomatic and most idiotic solve so far.
