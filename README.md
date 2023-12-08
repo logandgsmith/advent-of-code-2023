@@ -20,3 +20,6 @@ Oh wow, everything they say about Perl is real and true. What did I just witness
 
 ## Day 6 -- C++
 Today was a short one. I think the hardest part was remembering how much uglier string processing is without the functions that Python has. Also got reminded of the issues that can pop up from not properly flushing your buffers. I'm glad today was a quick one, because that would not have been fun to troubleshoot with a massive input.
+
+## Day 7 -- Ruby
+First time trying ruby. I liked it better than Go and Perl, but I wasn't really a fan that there were so many ways to write the same statement. I'm a bigger fan of a bit more structure, however, it did make it really easy to pick up and just focus on the prompt.
